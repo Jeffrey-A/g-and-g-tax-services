@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+  .nav-item {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin: 1rem;
+  }
+}
