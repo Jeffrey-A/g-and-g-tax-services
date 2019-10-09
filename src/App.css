@@ -44,3 +44,11 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* Services */
+.service{
+  padding: 1rem;
+  background-color: gray;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
