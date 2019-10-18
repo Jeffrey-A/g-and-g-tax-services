@@ -3,6 +3,7 @@ import NavigationComponent from './components/Nav';
 import CarouselComponent from './components/Carousel'; 
 import About from './components/About';
 import Services from './components/Services';
+import Contact from './components/Contact';
 import './App.css';
 
 class App extends React.Component {
@@ -13,6 +14,7 @@ class App extends React.Component {
         <CarouselComponent />
         <About />
         <Services />
+        <Contact />
       </div>
     )
   }
