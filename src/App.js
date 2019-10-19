@@ -4,6 +4,7 @@ import CarouselComponent from './components/Carousel';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './App.css';
 
 class App extends React.Component {
@@ -15,6 +16,7 @@ class App extends React.Component {
         <About />
         <Services />
         <Contact />
+        <Footer />
       </div>
     )
   }

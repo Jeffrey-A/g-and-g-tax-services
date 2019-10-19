@@ -63,3 +63,14 @@
 .services-ul li{
  text-align: center;
 }
+
+.footer p{
+  margin-bottom: 0;
+  padding: 1rem;
+}
+
+.footer{
+  text-align: center;
+  background-color: gray;
+  margin-bottom: 0;
+}
