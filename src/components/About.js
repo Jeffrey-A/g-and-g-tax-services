@@ -1,8 +1,9 @@
 import React from "react";
+import CertificateLogo from '../assets/icons8-diploma-24.png';
 
 function About(props) {
   return (
-    <div className="container">
+    <div className="container about-container">
       <h3 className="section-heading">About Us</h3>
       <div className="text-center">
         <p>
@@ -18,9 +19,18 @@ function About(props) {
       <div className="certification-list-container">
         <h4 className="section-sub-heading text-center">Certifications</h4>
         <ul className="certification-list">
-          <li>Placeholder</li>
-          <li>Placeholder</li>
-          <li>Placeholder</li>
+          <li>
+            <img src={CertificateLogo} /> 
+            <p>Placeholder</p>
+            </li>
+          <li>
+            <img src={CertificateLogo} /> 
+            <p>Placeholder</p>
+          </li>
+          <li>
+            <img src={CertificateLogo} /> 
+            <p>Placeholder</p>
+          </li>
         </ul>
       </div>
     </div>

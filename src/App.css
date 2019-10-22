@@ -33,16 +33,30 @@
 
 .certification-list-container{
   width: 100%;
-  margin: 1.5rem auto;
+  margin: 3.5rem auto;
 }
 
 .section-sub-heading{
-  margin: 1.5rem auto 1rem;
+  margin: 2.5rem auto 2.5rem;
 }
 
 .certification-list{
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
+}
+
+.certification-list img{
+  width: 24px;
+  height: 24px;
+}
+
+.certification-list li{
+  display:flex;
+}
+
+.about-container{
+  margin: 5rem auto;
 }
 
 /* Services */
