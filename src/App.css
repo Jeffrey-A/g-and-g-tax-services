@@ -14,6 +14,15 @@
   .navbar-nav {
     margin: 1rem;
   }
+
+  .certification-list{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .certification-list li{
+    justify-content: flex-start;
+  }
 }
 
 /* About */

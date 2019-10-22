@@ -50,7 +50,7 @@ class Services extends React.Component {
     } = this.state;
     return (
       <div className="container">
-        <h3 className="section-heading">Services</h3>
+        <h3 className="section-sub-heading text-center">Services</h3>
         <div className="services-container">
           <div
             className="service text-center"
