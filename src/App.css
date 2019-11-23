@@ -9,7 +9,25 @@
 .container-section {
 }
 
-.nav-link:hover{
+.navbar-light .navbar-toggler {
+  color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.8);
+  outline: 0;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url('./assets/menu.png');
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  border-top: 1px solid white;
+  margin-top: 1rem;
+}
+
+.nav-link:hover {
   text-decoration: underline;
 }
 
@@ -27,7 +45,7 @@
   color: #fff !important;
 }
 
-.mk-appointment{
+.mk-appointment {
   background-color: #2e4057;
   padding: 1rem;
   font-weight: 700;
@@ -41,42 +59,28 @@
   border: 1px solid #2e4057;
 }
 
-.mk-appointment:visited{
+.mk-appointment:visited {
   color: #fff;
 }
 
-.mk-appointment:hover{
+.mk-appointment:hover {
   text-decoration: none;
   background-color: #fff;
   color: #2e4057;
 }
 
-.contact-text p{
+.contact-text p {
   margin: 0;
 }
 
-.contact-card{
+.contact-card {
   width: 250px;
   padding: 1rem;
 }
 
-.mk-appointment-container{
+.mk-appointment-container {
   display: flex;
   justify-content: center;
-}
-
-@media (max-width: 600px) {
-  .nav-item {
-    text-align: center;
-  }
-
-  .carousel-item {
-    height: 40vh;
-  }
-
-  .navbar-nav {
-    margin: 1rem;
-  }
 }
 
 /* About */
@@ -106,7 +110,6 @@
 }
 
 .about-container {
-  
 }
 
 .container-section {
@@ -211,4 +214,31 @@
 }
 
 .contact-section {
+}
+
+@media (max-width: 600px) {
+  .nav-item {
+    text-align: center;
+  }
+
+  .carousel-item {
+    height: 40vh;
+  }
+
+  .navbar-nav {
+    margin: 1rem;
+  }
+
+  .container,
+  .services-container {
+    width: 90%;
+  }
+
+  .services-container {
+    justify-content: center;
+  }
+
+  .contact-card {
+    margin-bottom: 2.5rem;
+  }
 }
