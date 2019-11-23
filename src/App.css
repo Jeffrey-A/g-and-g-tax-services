@@ -16,7 +16,7 @@
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url('./assets/menu.png');
+  background-image: url("./assets/menu.png");
 }
 
 .navbar-collapse {
@@ -240,5 +240,22 @@
 
   .contact-card {
     margin-bottom: 2.5rem;
+  }
+
+  .mk-appointment {
+    margin-top: 3rem;
+  }
+
+  .services-section .section-heading {
+    margin-bottom: 0.5rem;
+  }
+
+  .container-section {
+    margin-top: 0;
+  }
+
+  .section-container-text {
+    text-align: center;
+    font-size: 1.2rem;
   }
 }
