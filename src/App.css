@@ -60,16 +60,20 @@
 /* Services */
 
 .services-section {
-  background-color: #E3F2FD;
+  background-color: #e3f2fd;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
 
+.service-category-title {
+  margin: 0;
+}
+
 .service {
-  padding: 1rem;
-  background-color: gray;
+  padding: 0.3rem;
+  background-color: #2e4057;
+  color: #fff;
   margin-bottom: 1rem;
-  cursor: pointer;
 }
 
 .services-ul {
@@ -77,10 +81,33 @@
   justify-content: center;
   flex-direction: column;
   list-style-type: none;
+  padding: 0;
 }
 
 .services-ul li {
   text-align: center;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+.service-card {
+  border: 1px solid #2e4057;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+.service-card:hover {
+  transform: scale(1.1);
 }
 
 .footer p {
@@ -97,8 +124,28 @@
 
 .contact-card-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 80%;
   flex-wrap: wrap;
   margin: auto;
+  text-align: center;
+}
+
+.contact-img img {
+  display: inline-block;
+}
+
+.contact-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title {
+  margin-top: 1rem;
+}
+
+.contact-section {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
