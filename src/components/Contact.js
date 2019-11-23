@@ -10,9 +10,9 @@ class Contact extends React.Component {
       <div id="contact" className="container contact-section container-section">
         <h3 className="section-heading text-center">Contact Us</h3>
         <div className="contact-card-container">
-          <ContactCard img={location} title="Address" text="2851 Webb Avenue" />
-          <ContactCard img={phone} title="Phone" text="xxx-xxx-xxxx" />
-          <ContactCard img={email} title="Email" text="example@gmail.com" />
+          <ContactCard img={location} title="Address" text="603 W 180 Street, Suite 22" extra="New York, NY 10033" />
+          <ContactCard img={phone} title="Phone" text="(646) 669-8768" extra="(929) 355-2686" />
+          <ContactCard img={email} title="Email" text="ggtaxservicesinc@gmail.com" />
         </div>
       </div>
     );

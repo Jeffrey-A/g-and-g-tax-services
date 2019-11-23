@@ -9,6 +9,10 @@
 .container-section {
 }
 
+.nav-link:hover{
+  text-decoration: underline;
+}
+
 .navbar-light,
 .bg-light {
   background-color: #2e4057 !important;
@@ -21,6 +25,44 @@
 
 .navbar-light .navbar-nav .nav-link {
   color: #fff !important;
+}
+
+.mk-appointment{
+  background-color: #2e4057;
+  padding: 1rem;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin-top: 10rem;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #2e4057;
+}
+
+.mk-appointment:visited{
+  color: #fff;
+}
+
+.mk-appointment:hover{
+  text-decoration: none;
+  background-color: #fff;
+  color: #2e4057;
+}
+
+.contact-text p{
+  margin: 0;
+}
+
+.contact-card{
+  width: 250px;
+  padding: 1rem;
+}
+
+.mk-appointment-container{
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 600px) {
@@ -109,13 +151,14 @@
 }
 
 .service-card {
-  border: 1px solid #2e4057;
   width: 200px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   transition: transform 1s;
   cursor: pointer;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .service-card:hover {

@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactCard(props) {
   return (
-    <div>
+    <div className="shadow contact-card">
       <div className="contact-img">
         <img src={props.img} alt="" />
       </div>
@@ -11,6 +11,7 @@ function ContactCard(props) {
       </div>
       <div className="contact-text">
         <p>{props.text}</p>
+        {props.extra ? <p>{props.extra}</p> : null}
       </div>
     </div>
   );
