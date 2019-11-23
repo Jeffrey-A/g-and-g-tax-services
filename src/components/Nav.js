@@ -36,21 +36,14 @@ class NavigationComponent extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">About</NavLink>
+                <NavLink href="#about">About Us</NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Services
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>Option 1</DropdownItem>
-                  <DropdownItem>Option 2</DropdownItem>
-                  <DropdownItem divider />
-                </DropdownMenu>
-              </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
-                  Contact
+                <NavLink href="#services">Our Services</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#contact">
+                  Contact Us
                 </NavLink>
               </NavItem>
             </Nav>

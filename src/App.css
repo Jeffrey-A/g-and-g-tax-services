@@ -6,6 +6,9 @@
   width: 100%;
 }
 
+.container-section {
+}
+
 .navbar-light,
 .bg-light {
   background-color: #2e4057 !important;
@@ -33,7 +36,10 @@
 /* About */
 .section-heading {
   text-align: center;
-  margin: 1.5rem auto 1rem;
+  margin: 1.5rem auto 3.5rem;
+  text-decoration: underline;
+  color: #2e4057;
+  text-decoration-color: #2e4057;
 }
 
 .text-center {
@@ -42,7 +48,7 @@
 
 .container {
   width: 80%;
-  margin: 1rem auto;
+  margin: auto;
 }
 
 .section-container-text {
@@ -54,6 +60,12 @@
 }
 
 .about-container {
+  
+}
+
+.container-section {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   margin: 5rem auto;
 }
 
@@ -61,8 +73,8 @@
 
 .services-section {
   background-color: #e3f2fd;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 5.5rem;
 }
 
 .service-category-title {
@@ -110,6 +122,12 @@
   transform: scale(1.1);
 }
 
+.shadow {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
 .footer p {
   margin-bottom: 0;
   padding: 1rem;
@@ -146,6 +164,4 @@
 }
 
 .contact-section {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }

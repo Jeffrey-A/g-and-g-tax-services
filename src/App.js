@@ -1,24 +1,33 @@
-import React from 'react';
-import NavigationComponent from './components/Nav';
-import CarouselComponent from './components/Carousel'; 
-import About from './components/About';
-import Services from './components/Services';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import './App.css';
+import React from "react";
+import NavigationComponent from "./components/Nav";
+import CarouselComponent from "./components/Carousel";
+import About from "./components/About";
+import Services from "./components/Services";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import "./App.css";
+import Fade from "react-reveal/Fade";
+
 
 class App extends React.Component {
-  render(){
+  render() {
     return (
       <div>
-        <NavigationComponent/>
+        <NavigationComponent />
         <CarouselComponent />
-        <About />
-        <Services />
-        <Contact />
+        <Fade bottom>
+          <About />
+        </Fade>
+        <Fade left>
+          <Services />
+        </Fade>
+        <Fade right>
+          <Contact />
+        </Fade>
+
         <Footer />
       </div>
-    )
+    );
   }
 }
 

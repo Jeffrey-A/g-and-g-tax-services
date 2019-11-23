@@ -16,11 +16,11 @@ class Services extends React.Component {
 
   render() {
     return (
-      <div className="services-section">
+      <div id="services" className="services-section container-section">
         <div className="container">
-          <h3 className="section-sub-heading text-center">Our Services</h3>
+          <h3 className="section-heading text-center">Our Services</h3>
           <div className="services-container">
-            <div className="service-card text-center">
+            <div className="service-card shadow  text-center">
               <div className="service  service-category">
                 <p className="service-category-title">Placeholder</p>
               </div>
@@ -32,7 +32,7 @@ class Services extends React.Component {
               </ul>
             </div>
 
-            <div className="service-card text-center">
+            <div className="service-card shadow text-center">
               <div className="service service-category">
                 <p className="service-category-title">Placeholder</p>
               </div>
@@ -44,7 +44,7 @@ class Services extends React.Component {
               </ul>
             </div>
 
-            <div className="service-card text-center">
+            <div className="service-card shadow text-center">
               <div className="service service-category">
                 <p className="service-category-title">Placeholder</p>
               </div>

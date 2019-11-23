@@ -1,9 +1,8 @@
 import React from "react";
-import CertificateLogo from '../assets/icons8-diploma-24.png';
 
 function About(props) {
   return (
-    <div className="container about-container">
+    <div id="about"className="container about-container container-section">
       <h3 className="section-heading">About Us</h3>
       <div className="text-center section-container-text">
         <p>
