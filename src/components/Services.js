@@ -49,43 +49,45 @@ class Services extends React.Component {
       services3
     } = this.state;
     return (
-      <div className="container">
-        <h3 className="section-sub-heading text-center">Services</h3>
-        <div className="services-container">
-          <div
-            className="service text-center"
-            onClick={() => this.handleClick1()}
-          >
-            Placeholder
-          </div>
+      <div className="services-section">
+        <div className="container">
+          <h3 className="section-sub-heading text-center">Services</h3>
           <div className="services-container">
-            <ul className="services-ul">
-              {isExpanded1 ? this.createServices(services1) : null}
-            </ul>
-          </div>
+            <div
+              className="service text-center"
+              onClick={() => this.handleClick1()}
+            >
+              Placeholder
+            </div>
+            <div className="services-container">
+              <ul className="services-ul">
+                {isExpanded1 ? this.createServices(services1) : null}
+              </ul>
+            </div>
 
-          <div
-            className="service text-center"
-            onClick={() => this.handleClick2()}
-          >
-            Placeholder
-          </div>
-          <div className="services-container">
-            <ul className="services-ul">
-              {isExpanded2 ? this.createServices(services2) : null}
-            </ul>
-          </div>
+            <div
+              className="service text-center"
+              onClick={() => this.handleClick2()}
+            >
+              Placeholder
+            </div>
+            <div className="services-container">
+              <ul className="services-ul">
+                {isExpanded2 ? this.createServices(services2) : null}
+              </ul>
+            </div>
 
-          <div
-            className="service text-center"
-            onClick={() => this.handleClick3()}
-          >
-            Placeholder
-          </div>
-          <div className="services-container">
-            <ul className="services-ul">
-              {isExpanded3 ? this.createServices(services3) : null}
-            </ul>
+            <div
+              className="service text-center"
+              onClick={() => this.handleClick3()}
+            >
+              Placeholder
+            </div>
+            <div className="services-container">
+              <ul className="services-ul">
+                {isExpanded3 ? this.createServices(services3) : null}
+              </ul>
+            </div>
           </div>
         </div>
       </div>

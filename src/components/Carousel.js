@@ -6,21 +6,24 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
-import placeholderImage from '../assets/placeholder.png'
+
+import image1 from '../assets/image1.jpeg'
+import image2 from '../assets/image2.jpeg'
+import image3 from '../assets/image3.jpeg'
 
 const items = [
   {
-    src: placeholderImage,
+    src: image1,
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
   {
-    src: placeholderImage,
+    src: image2 ,
     altText: 'Slide 2',
     caption: 'Slide 2'
   },
   {
-    src: placeholderImage,
+    src: image3,
     altText: 'Slide 3',
     caption: 'Slide 3'
   }

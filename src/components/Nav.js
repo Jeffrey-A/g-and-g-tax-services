@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Collapse,
   Navbar,
@@ -10,7 +10,8 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  DropdownItem
+} from "reactstrap";
 
 class NavigationComponent extends React.Component {
   constructor(props) {
@@ -29,7 +30,7 @@ class NavigationComponent extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar  fixed="top" color="light" light expand="md">
           <NavbarBrand href="/">G&#38;G Tax Services</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -42,20 +43,15 @@ class NavigationComponent extends React.Component {
                   Services
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>
-                    Option 1
-                  </DropdownItem>
-                  <DropdownItem>
-                    Option 2
-                  </DropdownItem>
+                  <DropdownItem>Option 1</DropdownItem>
+                  <DropdownItem>Option 2</DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
-                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Contact</NavLink>
+                <NavLink href="https://github.com/reactstrap/reactstrap">
+                  Contact
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
@@ -64,6 +60,5 @@ class NavigationComponent extends React.Component {
     );
   }
 }
-
 
 export default NavigationComponent;

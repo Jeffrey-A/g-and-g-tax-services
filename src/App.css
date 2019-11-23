@@ -1,9 +1,23 @@
-.carousel-item{
-  height: 50vh;
+.carousel-item {
+  height: 100vh;
 }
 
-.carousel-item > img { 
-    width: 100%; 
+.carousel-item > img {
+  width: 100%;
+}
+
+.navbar-light,
+.bg-light {
+  background-color: #2e4057 !important;
+  color: #fff !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
 }
 
 @media (max-width: 600px) {
@@ -14,86 +28,77 @@
   .navbar-nav {
     margin: 1rem;
   }
-
-  .certification-list{
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .certification-list li{
-    justify-content: flex-start;
-  }
 }
 
 /* About */
-.section-heading{
+.section-heading {
   text-align: center;
   margin: 1.5rem auto 1rem;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
-.container{
+.container {
   width: 80%;
   margin: 1rem auto;
 }
 
-.certification-list-container{
-  width: 100%;
-  margin: 3.5rem auto;
+.section-container-text {
+  font-size: 1.5rem;
 }
 
-.section-sub-heading{
+.section-sub-heading {
   margin: 2.5rem auto 2.5rem;
 }
 
-.certification-list{
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-}
-
-.certification-list img{
-  width: 24px;
-  height: 24px;
-}
-
-.certification-list li{
-  display:flex;
-}
-
-.about-container{
+.about-container {
   margin: 5rem auto;
 }
 
 /* Services */
-.service{
+
+.services-section {
+  background-color: #E3F2FD;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.service {
   padding: 1rem;
   background-color: gray;
   margin-bottom: 1rem;
   cursor: pointer;
 }
 
-.services-ul{
+.services-ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
   list-style-type: none;
 }
 
-.services-ul li{
- text-align: center;
+.services-ul li {
+  text-align: center;
 }
 
-.footer p{
+.footer p {
   margin-bottom: 0;
   padding: 1rem;
 }
 
-.footer{
+.footer {
   text-align: center;
-  background-color: gray;
+  background-color: #2e4057;
+  color: #fff;
   margin-bottom: 0;
+}
+
+.contact-card-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: auto;
 }
