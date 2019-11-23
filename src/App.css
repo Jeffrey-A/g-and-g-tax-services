@@ -70,6 +70,10 @@
     text-align: center;
   }
 
+  .carousel-item {
+    height: 40vh;
+  }
+
   .navbar-nav {
     margin: 1rem;
   }
