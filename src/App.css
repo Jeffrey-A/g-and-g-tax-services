@@ -51,10 +51,11 @@
   cursor: pointer;
   display: inline-block;
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 6rem;
   text-decoration: none;
   color: #fff;
   border: 1px solid #2e4057;
+  transition: all .3s;
 }
 
 .mk-appointment:visited {
@@ -124,9 +125,6 @@
   padding-bottom: 5.5rem;
 }
 
-.service-category-title {
-  margin: 0;
-}
 
 .service {
   padding: 0.3rem;
@@ -135,17 +133,6 @@
   margin-bottom: 1rem;
 }
 
-.services-ul {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  list-style-type: none;
-  padding: 0;
-}
-
-.services-ul li {
-  text-align: center;
-}
 
 .services-container {
   display: flex;
@@ -168,6 +155,19 @@
 
 .service-card:hover {
   transform: scale(1.1);
+}
+
+.service-card-img-container {
+  width: 48px;
+  margin: auto;
+}
+
+.service-name {
+  text-transform: capitalize;
+}
+
+.service-card-img-container img{
+  width: 100%;
 }
 
 .shadow {
