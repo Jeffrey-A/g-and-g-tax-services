@@ -23,8 +23,6 @@
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
-  border-top: 1px solid white;
-  margin-top: 1rem;
 }
 
 .nav-link:hover {
@@ -217,6 +215,12 @@
 }
 
 @media (max-width: 600px) {
+
+  .navbar-collapse {
+    border-top: 1px solid white;
+    margin-top: 1rem;
+  }
+
   .nav-item {
     text-align: center;
   }
