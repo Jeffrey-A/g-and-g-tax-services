@@ -51,10 +51,11 @@
   cursor: pointer;
   display: inline-block;
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 6rem;
   text-decoration: none;
   color: #fff;
   border: 1px solid #2e4057;
+  transition: all .3s;
 }
 
 .mk-appointment:visited {
