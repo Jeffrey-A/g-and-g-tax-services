@@ -125,9 +125,6 @@
   padding-bottom: 5.5rem;
 }
 
-.service-category-title {
-  margin: 0;
-}
 
 .service {
   padding: 0.3rem;
@@ -136,17 +133,6 @@
   margin-bottom: 1rem;
 }
 
-.services-ul {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  list-style-type: none;
-  padding: 0;
-}
-
-.services-ul li {
-  text-align: center;
-}
 
 .services-container {
   display: flex;
