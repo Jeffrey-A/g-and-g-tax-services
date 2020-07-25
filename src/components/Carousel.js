@@ -14,12 +14,15 @@ import image3 from '../assets/image3.jpeg'
 const items = [
   {
     src: image1,
+    caption:'',
   },
   {
     src: image2 ,
+    caption:'',
   },
   {
     src: image3,
+    caption:'',
   }
 ];
 
