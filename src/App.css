@@ -262,4 +262,8 @@
     text-align: center;
     font-size: 1.2rem;
   }
+
+  .carousel {
+    margin-top: 3.5rem !important;
+  }
 }
