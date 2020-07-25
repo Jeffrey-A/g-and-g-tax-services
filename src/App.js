@@ -18,7 +18,7 @@ class App extends React.Component {
         <Fade bottom>
           <About />
         </Fade>
-        <Fade left>
+        <Fade bottom>
           <Services />
         </Fade>
         <Fade right>
